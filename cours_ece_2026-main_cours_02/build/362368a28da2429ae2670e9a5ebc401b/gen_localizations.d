@@ -1,0 +1,1 @@
+ /Users/antoine/Desktop/app_mobile/cours_ece_2026-main_cours_02/lib/l10n/app_localizations_fr.dart /Users/antoine/Desktop/app_mobile/cours_ece_2026-main_cours_02/lib/l10n/app_localizations.dart:  /Users/antoine/Desktop/app_mobile/cours_ece_2026-main_cours_02/l10n.yaml /Users/antoine/Desktop/app_mobile/cours_ece_2026-main_cours_02/lib/l10n/app_fr.arb
