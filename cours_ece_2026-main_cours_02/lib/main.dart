@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:formation_flutter/l10n/app_localizations.dart';
-import 'package:formation_flutter/model/product.dart';
 import 'package:formation_flutter/res/app_colors.dart';
 import 'package:formation_flutter/res/app_theme_extension.dart';
 import 'package:formation_flutter/screens/product_page.dart';
-import 'package:formation_flutter/widgets/product_inherited_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,10 +24,7 @@ class MyApp extends StatelessWidget {
         textTheme: TextTheme(headlineMedium: TextStyle()),
       ),
       debugShowCheckedModeBanner: false,
-      home: ProductInheritedWidget(
-        product: generateProduct(),
-        child: const ProductPage(),
-      ),
+      home: const ProductPage(),
     );
   }
 }
